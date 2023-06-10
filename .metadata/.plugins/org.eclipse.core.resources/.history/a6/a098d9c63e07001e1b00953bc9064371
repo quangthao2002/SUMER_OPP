@@ -1,0 +1,98 @@
+package bai5;
+
+import java.time.LocalDate;
+
+public class HangThucPham {
+
+	private int maHang;
+	private String tenHang;
+	private double donGia;
+	private LocalDate ngaySanXuat;
+	private LocalDate ngayHetHan;
+	
+	public HangThucPham() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public HangThucPham(int maHang, String tenHang, double donGia, LocalDate ngaySanXuat, LocalDate ngayHetHan) {
+		super();
+		this.maHang = maHang;
+		this.tenHang = tenHang;
+		this.donGia = donGia;
+		this.ngaySanXuat = ngaySanXuat;
+		this.ngayHetHan = ngayHetHan;
+	}
+
+	public int getMaHang() {
+		return maHang;
+	}
+
+	public void setMaHang(int maHang) {
+		if(maHang <= 0) {
+			this.maHang = 0;
+		}else {
+			
+			this.maHang = maHang;
+		}
+	}
+
+	public String getTenHang() {
+		return tenHang;
+	}
+
+	public void setTenHang(String tenHang) {
+		if(tenHang.isEmpty()) {
+			System.out.println("Tên hàng không được để rỗng !!!");
+			this.tenHang = "xxx";
+		}else {
+			
+			this.tenHang = tenHang;
+		}
+	}
+
+	public double getDonGia() {
+		return donGia;
+	}
+
+	public void setDonGia(float donGia) {
+		if(donGia <0) {
+			System.out.println("Đơn giá phải lơn hơn không");
+			this.donGia = 0;
+		}else {
+			
+			this.donGia = donGia;
+		}
+	}
+
+	public LocalDate getNgaySanXuat() {
+		return ngaySanXuat;
+	}
+
+	public void setNgaySanXuat(LocalDate ngaySanXuat) {
+		LocalDate curentDate = LocalDate.now(); // Lấy ra ngạy hiện tại
+		if(ngaySanXuat.isAfter(curentDate)) {
+			System.out.println("ngày sản xuất không được sau ngày hiện tại");
+			this.ngaySanXuat =curentDate;
+		}
+		this.ngaySanXuat = ngaySanXuat;
+	}
+
+	public LocalDate getNgayHetHan() {
+		return ngayHetHan;
+	}
+
+	public void setNgayHetHan(LocalDate ngayHetHan) {
+		if(ngayHetHan.isBefore(ngaySanXuat)) {
+			System.out.println("Ngày hết hạn phải sau ngày sản xuất");
+			this.ngayHetHan = this.ngaySanXuat;
+		}
+		this.ngayHetHan = ngayHetHan;
+	}
+
+	@Override
+	public String toString() {
+		return "HangThucPham [maHang=" + maHang + ", tenHang=" + tenHang + ", donGia=" + donGia + ", ngaySanXuat="
+				+ ngaySanXuat + ", ngayHetHan=" + ngayHetHan + "]";
+	}
+	
+}

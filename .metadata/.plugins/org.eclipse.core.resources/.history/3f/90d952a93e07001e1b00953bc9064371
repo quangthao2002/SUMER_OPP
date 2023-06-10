@@ -1,0 +1,11 @@
+package bai5;
+
+import java.time.LocalDate;
+
+public class Demo {
+public static void main(String[] args) {
+	
+	HangThucPham hangThucPham1 =  new HangThucPham(2, "Gao", 10000, nsx, nhh);
+	
+}
+}
