@@ -46,8 +46,7 @@ public class HangThucPham {
 	public void setMaHang(int maHang) {
 		if(maHang <= 0) {
 			System.out.println("Mã Hàng không được để rỗng !!!");
-//			this.maHang = null;
-			return;
+			this.maHang = 0;
 		}else {
 			
 			this.maHang = maHang;
@@ -60,7 +59,7 @@ public class HangThucPham {
 
 	public void setTenHang(String tenHang) {
 		if(tenHang.isEmpty()) {
-			System.out.println("Tên hàng có mã "+maHang+" không được để rỗng !!!");
+			System.out.println("Tên hàng không được để rỗng !!!");
 			this.tenHang = "xxx";
 		}else {
 			

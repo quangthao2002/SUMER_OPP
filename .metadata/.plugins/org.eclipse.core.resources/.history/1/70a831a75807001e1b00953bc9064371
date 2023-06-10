@@ -60,7 +60,7 @@ public class HangThucPham {
 
 	public void setTenHang(String tenHang) {
 		if(tenHang.isEmpty()) {
-			System.out.println("Tên hàng có mã "+maHang+" không được để rỗng !!!");
+			System.out.println("Tên hàng có mã +maHang+ không được để rỗng !!!");
 			this.tenHang = "xxx";
 		}else {
 			
