@@ -1,0 +1,9 @@
+package bai6;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account(2, "", 60000);
+	}
+}
