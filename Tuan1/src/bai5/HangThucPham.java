@@ -9,7 +9,7 @@ import javax.swing.text.DateFormatter;
 
 public class HangThucPham {
 
-	private int maHang;
+	private String maHang;
 	private String tenHang;
 	private double donGia;
 	private LocalDate ngaySanXuat;
@@ -19,17 +19,22 @@ public class HangThucPham {
 		// TODO Auto-generated constructor stub
 	}
 
-	public HangThucPham(int maHang, String tenHang, double donGia, LocalDate ngaySanXuat, LocalDate ngayHetHan) {
+	public HangThucPham(String maHang, String tenHang, double donGia, LocalDate ngaySanXuat, LocalDate ngayHetHan) throws Exception {
 //		super();
 		setMaHang(maHang);
 		setTenHang(tenHang);
-		setDonGia(maHang);
+		setDonGia(donGia);
 		setDonGia(donGia);
 		setNgaySanXuat(ngaySanXuat);
 		setNgayHetHan(ngayHetHan);
 	}
 
 	
+	public HangThucPham(String maHang) {
+//		super();
+		this.maHang = maHang;
+	}
+
 	public String Check_HSD() {
 		LocalDate curentDate = LocalDate.now();
 		if (ngayHetHan.isAfter(curentDate)) {
@@ -39,18 +44,18 @@ public class HangThucPham {
 		}
 	}
 	
-	public int getMaHang() {
+	public String getMaHang() {
 		return maHang;
 	}
 
-	public void setMaHang(int maHang) {
-		if(maHang <= 0) {
-			System.out.println("Mã Hàng không được để rỗng !!!");
+	public void setMaHang(String maHang) throws Exception {
+		if(!maHang.equals("")) {
+			this.maHang = maHang;
 //			this.maHang = null;
-			return;
 		}else {
 			
-			this.maHang = maHang;
+//			System.out.println("Mã Hàng không được để rỗng !!!");
+			throw new Exception("ma hang khong duoc rong");
 		}
 	}
 

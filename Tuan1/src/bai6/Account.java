@@ -1,7 +1,9 @@
 package bai6;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
+
 
 public class Account {
 	private long accountNumber;
@@ -90,10 +92,10 @@ public class Account {
 		balance = balance +balance *RATE;
 	}
 
-	public boolean transfer(Account acc2, double amount) {
+	public boolean transfer(Account receiving_account, double amount) {
 		if(amount >0 && amount <= balance) {
 			balance -= amount;
-			acc2.deposit(amount);
+			receiving_account.deposit(amount);
 			return true;
 		}
 		return false;
@@ -101,8 +103,9 @@ public class Account {
 
 	public String toString() {
 	    Locale local = new Locale("vi", "vn");
-	    NumberFormat formatter = NumberFormat.getCurrencyInstance(local);
-	    String formattedBalance = formatter.format(balance);
+	    DecimalFormat decimalFormat = (DecimalFormat) NumberFormat.getCurrencyInstance(local);
+	   decimalFormat.setMaximumFractionDigits(2);
+	    String formattedBalance = decimalFormat.format(balance);
 	    String result = "Account Number: " + accountNumber + ", Name: " + name + ", Balance: " + formattedBalance;
 	    return result;
 	}
