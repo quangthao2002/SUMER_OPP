@@ -1,0 +1,24 @@
+package bai9;
+
+public class DanhSachCongNhan {
+
+	private CongNhan[] dsCongNhan;
+	private int count;
+	
+	public DanhSachCongNhan() {
+	}
+	public DanhSachCongNhan(int n) {
+		dsCongNhan = new CongNhan[n];
+		count =0;
+	}
+	
+	public boolean addCongNhan(CongNhan cn) {
+		if(count < dsCongNhan.length) {
+			
+			dsCongNhan[count] = cn;
+			count ++;
+			return true;
+		}
+		
+	}
+}

@@ -1,0 +1,11 @@
+package bai9;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		CongNhan cn1 = new CongNhan("cn1", "ngo", "thao", 20);
+		
+		DanhSachCongNhan listCN= new DanhSachCongNhan();
+		
+	}
+}

@@ -1,0 +1,20 @@
+package bai9;
+
+public class CongNhan {
+	private String maCN;
+	private String mHo;
+	private String mTen;
+	private int mSoSP;
+	
+	public CongNhan() {
+
+	}
+
+	public CongNhan(String maCN, String mHo, String mTen, int mSoSP) {
+		this.maCN = maCN;
+		this.mHo = mHo;
+		this.mTen = mTen;
+		this.mSoSP = mSoSP;
+	}
+	
+}

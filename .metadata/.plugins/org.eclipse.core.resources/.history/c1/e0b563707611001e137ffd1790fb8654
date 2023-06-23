@@ -1,0 +1,14 @@
+package bai9;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		CongNhan cn1 = new CongNhan("cn1", "ngo", "thao", 20);
+		CongNhan cn2 = new CongNhan("cn2", "ngo", "thao", 30);
+		CongNhan cn3 = new CongNhan("cn3", "ngo", "thao", 40);
+		CongNhan cn4 = new CongNhan("cn4", "ngo", "thao", 50);
+		
+		DanhSachCongNhan listCN= new DanhSachCongNhan(3);
+		
+	}
+}

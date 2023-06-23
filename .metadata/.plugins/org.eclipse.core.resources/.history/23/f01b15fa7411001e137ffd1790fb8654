@@ -1,0 +1,13 @@
+package bai9;
+
+public class DanhSachCongNhan {
+
+	private CongNhan[] dsCongNhan;
+	private int count;
+	
+	public DanhSachCongNhan() {
+	}
+	public DanhSachCongNhan(int n) {
+		dsCongNhan = new Cong
+	}
+}
