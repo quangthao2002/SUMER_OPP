@@ -28,4 +28,12 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="bai12.Course"/>
+    <fullyQualifiedTypeName name="abstrast.Coordinates"/>
+    <fullyQualifiedTypeName name="abstrast.Rectangle"/>
+    <fullyQualifiedTypeName name="abstrast.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="testinterface.Tax"/>
+    <fullyQualifiedTypeName name="abstrast.Shape"/>
+    <fullyQualifiedTypeName name="testinterface.Tax2"/>
+    <fullyQualifiedTypeName name="javax.swing.text.TabableView"/>
 </qualifiedTypeNameHistroy>
