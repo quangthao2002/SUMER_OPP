@@ -28,7 +28,7 @@ public class CDList {
 			for (int i = 0; i < count; i++) {
 				if (cd.getMaCD() == cdlist[i].getMaCD()) {
 					System.out.println("Mã CD đã tồn tại");
-					return false;
+				return false;
 				}
 			}
 			cdlist[count] = cd; //gán đối tượng CD vào vị trí count trong mảng danh sách CD.
@@ -56,6 +56,9 @@ public class CDList {
 		}
 		return total;
 	}
+	
+	
+	
 //	Phương thức sắp xếp danh sách giảm dần theo giá thành.
 
 	public void sortCDsByCostDescending() {

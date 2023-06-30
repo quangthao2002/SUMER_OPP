@@ -1,8 +1,0 @@
-package bai9;
-
-public class Demo {
-
-	public static void main(String[] args) {
-		CongNhan cn1 = new CongNhan(2, "ngo", "thao", 20);
-	}
-}

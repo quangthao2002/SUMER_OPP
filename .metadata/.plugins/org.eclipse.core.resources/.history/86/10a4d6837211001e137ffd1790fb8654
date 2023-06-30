@@ -1,8 +1,0 @@
-package bai9;
-
-public class CongNhan {
-	private String maCN;
-	private String mHo;
-	private String mTen;
-	private int mSoSP;
-}

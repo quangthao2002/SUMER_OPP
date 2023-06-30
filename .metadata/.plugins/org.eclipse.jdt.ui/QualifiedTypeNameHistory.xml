@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="bai9.CongNhan"/>
     <fullyQualifiedTypeName name="bai9.DanhSachCongNhan"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="bai10.OrderDetail"/>
     <fullyQualifiedTypeName name="bai10.Product"/>
     <fullyQualifiedTypeName name="bai10.Order"/>
@@ -25,8 +24,6 @@
     <fullyQualifiedTypeName name="bai12.Student"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="bai12.Manage"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="bai12.Course"/>
     <fullyQualifiedTypeName name="abstrast.Coordinates"/>
     <fullyQualifiedTypeName name="abstrast.Rectangle"/>
@@ -36,4 +33,18 @@
     <fullyQualifiedTypeName name="abstrast.Shape"/>
     <fullyQualifiedTypeName name="testinterface.Tax2"/>
     <fullyQualifiedTypeName name="javax.swing.text.TabableView"/>
+    <fullyQualifiedTypeName name="ontap.Xe"/>
+    <fullyQualifiedTypeName name="ontap.xeKhach"/>
+    <fullyQualifiedTypeName name="ontap.xeTai"/>
+    <fullyQualifiedTypeName name="ontap.DanhSachChuyenXe"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="ontap2.DanhSachChuyenXe"/>
+    <fullyQualifiedTypeName name="ontap2.xeKhach"/>
+    <fullyQualifiedTypeName name="ontap2.Xe"/>
+    <fullyQualifiedTypeName name="ontap2.XeTai"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,0 @@
-package bai9;
-
-public class DanhSachCongNhan {
-
-	private CongNhan[] dsCongNhan;
-}
