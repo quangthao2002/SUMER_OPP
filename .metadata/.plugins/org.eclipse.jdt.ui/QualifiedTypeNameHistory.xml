@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="abstrast.Circle"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="testinterface.Tax"/>
-    <fullyQualifiedTypeName name="abstrast.Shape"/>
     <fullyQualifiedTypeName name="testinterface.Tax2"/>
     <fullyQualifiedTypeName name="javax.swing.text.TabableView"/>
     <fullyQualifiedTypeName name="ontap.Xe"/>
@@ -22,7 +18,6 @@
     <fullyQualifiedTypeName name="bai3.GiaoDich"/>
     <fullyQualifiedTypeName name="java.security.spec.DSAGenParameterSpec"/>
     <fullyQualifiedTypeName name="bai3.GiaoDichTienTe"/>
-    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
@@ -49,15 +44,20 @@
     <fullyQualifiedTypeName name="bai10.XeOtoKhach"/>
     <fullyQualifiedTypeName name="bai10.XeOtoTai"/>
     <fullyQualifiedTypeName name="bai12.Acount"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Bai6.DanhSachPhongHoc"/>
     <fullyQualifiedTypeName name="Bai6.PhongHocLyThuyet"/>
     <fullyQualifiedTypeName name="Bai6.PhongHocThiNghiem"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Bai6.PhongHoc"/>
     <fullyQualifiedTypeName name="Bai6.PhongMayTinh"/>
+    <fullyQualifiedTypeName name="java.security.spec.ECField"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="bai7.Administrator"/>
+    <fullyQualifiedTypeName name="bai7.Employee"/>
+    <fullyQualifiedTypeName name="bai7.Programmer"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 </qualifiedTypeNameHistroy>
