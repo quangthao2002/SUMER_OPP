@@ -69,7 +69,7 @@ public class DanhSachPhongHoc {
 	}
 
 	public void sortByBongDenTangDan() {
-		Collections.sort(dsPhongHoc, Comparator.comparing(ph -> ph.getSoBongDen()));
+		Collections.sort(dsPhongHoc, Comparator.comparing(pht -> pht.getSoBongDen()));
 	}
 
 	public void UpdateSoMayTinh(String maPhong, int soMayTinhMoi) {

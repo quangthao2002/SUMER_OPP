@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java (buildArtifact)",
+			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"elements": [
+				"${compileOutput:Module2}",
+				"${dependencies:Module2}",
+				"${compileOutput:ThucHanhTuan5}",
+				"${dependencies:ThucHanhTuan5}",
+				"${compileOutput:Tuan1}",
+				"${dependencies:Tuan1}",
+				"${compileOutput:Tuan2}",
+				"${dependencies:Tuan2}",
+				"${compileOutput:Tuan3}",
+				"${dependencies:Tuan3}",
+				"${compileOutput:Tuan4}",
+				"${dependencies:Tuan4}"
+			],
+			"problemMatcher": [],
+			"label": "java (buildArtifact): TH_OPP_SUMMER"
+		}
+	]
+}

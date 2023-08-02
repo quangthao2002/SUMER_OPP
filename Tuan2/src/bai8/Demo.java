@@ -3,7 +3,7 @@ package bai8;
 public class Demo {
 
 	public static void main(String[] args) {
-		
+
 		CD cd1 = new CD(1, "nhac tre", 3, 20000);
 		CD cd2 = new CD(2, "phim trinh tham", 5, 30000);
 		CD cd3 = new CD(3, "phim hanh dong", 16, 40000);
@@ -25,7 +25,7 @@ public class Demo {
 		System.out.println("---------------Danh sách tăng dần theo tựa CD----------------------");
 		cdDlist.sortCDsByTitleAscending();
 		cdDlist.InforAllCD();
-		
+
 	}
-	
+
 }

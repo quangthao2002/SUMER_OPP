@@ -33,6 +33,4 @@ public class Programmer extends Employee{
 		}
 		return super.getTheBasicMonthlySalary() + phucap;
 	}
-	
-	
 }

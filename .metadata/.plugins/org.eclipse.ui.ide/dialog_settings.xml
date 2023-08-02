@@ -25,6 +25,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\HocKi6\TH_OPP_SUMMER\11_20117861_NgoQuangThao"/>
 			<item value="D:\HocKi6\TH_OPP_SUMMER"/>
 			<item value="D:\HọcKi3\TH_OPP_SUMMER\ThucHanhTuan1"/>
 		</list>
